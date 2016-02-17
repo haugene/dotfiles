@@ -124,11 +124,7 @@
 	log = true
 
 [push]
-
-	# Use the Git 1.x.x default to avoid errors on machines with old Git
-	# installations. To use `simple` instead, add this to your `~/.extra` file:
-	# `git config --global push.default simple`. See http://git.io/mMah-w.
-	default = matching
+	default = simple
 
 # URL shorthands
 [url "git@github.com:"]
@@ -151,16 +147,11 @@
 
 	insteadOf = "gist:"
 [user]
-	name = Jessica Frazelle
-	email = acidburn@docker.com
-	signingkey = 0x18F3685C0022BFF3
+	name = Kristian Haugene
+	email = kristian.haugene@capgemini.com
 #[remote "origin"]
 	#fetch = +refs/pull/*/head:refs/remotes/origin/pull/*
 [github]
-	user = jfrazelle
+	user = haugene
 #[init]
 #	templatedir = ~/.git_template/template
-[commit]
-	gpgsign = true
-[http]
-	cookiefile = /home/jessie/.gitcookies

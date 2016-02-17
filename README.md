@@ -1,7 +1,5 @@
 ## dotfiles
 
-[![Circle CI](https://circleci.com/gh/jfrazelle/dotfiles.svg?style=svg)](https://circleci.com/gh/jfrazelle/dotfiles)
-
 **To install:**
 
 ```console
@@ -36,8 +34,3 @@ export GMAIL=email@you.com
 export GMAIL_NAME="Your Name"
 export GMAIL_FROM=from-email@you.com
 ```
-
-#### `.vim`
-
-For my `.vimrc` and `.vim` dotfiles see
-[github.com/jfrazelle/.vim](https://github.com/jfrazelle/.vim).
