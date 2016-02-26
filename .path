@@ -1,0 +1,3 @@
+# Java
+export JAVA_HOME=/opt/oracle/jdk1.8.0_73
+export PATH=$JAVA_HOME/bin:$PATH
